@@ -1,0 +1,4 @@
+{% extends '_base.html' %} {%block content%}
+<h1>Default Django</h1>
+<form>{% csrf_token %} {{form.as_p}}</form>
+{% endblock content%}

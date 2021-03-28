@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.heheBoi {
+	width: 100%;
+	display: inline-block;
+	padding: 10px 80px 10px 40px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	color: grey;
+	&:focus {
+		outline: none;
+		border: 1px solid #1fbc75;
+	}
+}
+.custom__form {
+	margin-top: 20px;
+	label {
+		margin: 5px 10px 0px 5px;
+		color: #1b1f2e;
+	}
+	input[type='submit'] {
+		margin-top: 20px;
+		padding: 10px 30px;
+		border: 1px solid #1b1f2e;
+		border-radius: 5px;
+		background-color: #1b1f2e;
+		color: white;
+		&:focus {
+			outline: none;
+		}
+		&:hover {
+			color: #1b1f2e;
+			background-color: white;
+			transition: all 0.3s ease-in-out;
+		}
+	}
+}
