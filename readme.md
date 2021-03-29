@@ -7,6 +7,7 @@
 
 - [ ] ModelForm
 - [ ] form.Form
+- [ ] pure HTML form
 
 ![Default registration form](https://github.com/sukubhattu/django-style-guide/blob/master/readme-images/29.03.2021_00.11.12_REC.png)
 ![With crispy forms](https://github.com/sukubhattu/django-style-guide/blob/master/readme-images/29.03.2021_00.11.45_REC.png)
